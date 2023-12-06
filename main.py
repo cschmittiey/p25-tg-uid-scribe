@@ -49,7 +49,7 @@ def main():
     print("Type 'exit' to quit. Input data in any order, for example: '12345 tg fireground ops'.")
 
     while True:
-        user_input = input("Enter your data: ").strip().lower()
+        user_input = input("Enter your data: ").strip()
         if user_input == 'exit':
             break
         process_input(user_input)
